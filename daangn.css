@@ -221,7 +221,7 @@ ul li {
 .footer_body {
   display: flex;
   flex-direction: column;
-  max-width: 50rem;
+  max-width: 76.8rem;
   margin: 0 auto;
 }
 
@@ -233,7 +233,7 @@ ul li {
 .footer_menus {
   display: flex;
   max-width: 76.8rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .footer_menus_row {
   display: flex;
@@ -256,6 +256,9 @@ ul li {
   text-decoration: none;
   outline: 0;
   color: black;
+}
+.footer_menus_item a:hover {
+  text-decoration: underline;
 }
 .footer_download {
   float: right;
@@ -289,7 +292,7 @@ ul li {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
-  background-color: lightgray;
+  background-color: #eaebee;
 }
 
 /* footer section 2 */
@@ -317,6 +320,9 @@ ul li {
   outline: 0;
   font-weight: 700;
   color: gray;
+}
+.footer_requests a:hover {
+  text-decoration: underline;
 }
 .footer_icons {
   margin-top: 0;
@@ -369,4 +375,7 @@ ul li {
   font-weight: 700;
   white-space: nowrap;
   color: gray;
+}
+.footer_rule a:hover {
+  text-decoration: underline;
 }
