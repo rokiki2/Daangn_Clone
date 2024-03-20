@@ -368,7 +368,7 @@ ul li {
   flex-wrap: wrap;
   display: flex;
   grid-column: 1/4;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
 }
 .footer_rule {
   margin-right: 1.6rem;
